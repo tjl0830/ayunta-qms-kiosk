@@ -1,0 +1,16 @@
+.ServiceButton {
+  padding: 10px 18px; /* Adjust padding */
+  font-size: 28px; /* Font size */
+  background-color: #006335; /* Green background */
+  color: white; /* White text */
+  border: none; /* Remove border */
+  border-radius: 5px; /* Rounded corners */
+  cursor: pointer; /* Pointer cursor on hover */
+  transition: background-color 0.3s; /* Smooth transition */
+  height: 80px; /* Button height */
+  width: 100%; /* Full width */
+  text-align: center; /* Center text */
+  display: flex;
+  justify-content: center; /* Center content */
+  align-items: center; /* Vertically center content */
+}

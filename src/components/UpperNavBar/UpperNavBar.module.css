@@ -1,0 +1,42 @@
+.upperNavBar {
+  position: fixed;
+  width: 100%;
+  height: 81px;
+}
+
+.overlapGroup {
+  top: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  width: 100%;
+  height: 81px;
+  background-color: #006335;
+}
+
+.dlsudLogo,
+.registrarLogo,
+.dateAndTime {
+  position: absolute;
+}
+
+.dlsudLogo {
+  width: 297px;
+  height: 74px;
+  top: 6px;
+  left: 10px;
+}
+
+.registrarLogo {
+  width: 92px;
+  height: 62px;
+  left: 324px;
+}
+
+.dateAndTime {
+  right: 20px;
+  font-family: "Roboto-Medium", Helvetica;
+  color: #ffffff; /* White text */
+  font-size: 30px;
+}
